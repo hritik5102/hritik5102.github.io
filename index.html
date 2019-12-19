@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <title>Hritik Jaiswal</title>
@@ -22,27 +22,31 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="scss/main.scss">
 </head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" data-theme="dark">
 
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand" href="index.html"><span>H</span>ritik</a>
             <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+                <span class="oi oi-menu"></span> Menu
+            </button>
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav nav ml-auto">
                     <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
                     <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                     <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-                    <!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
-                    <!-- <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li> -->
-                    <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
                     <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                    <li class="nav-item">
+                        <div class="toggle-container" style="margin-top:10px;">
+                            <input type="checkbox" name="theme" id="switch"><label for="switch">Toggle</label>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -65,7 +69,8 @@
                 </div>
             </div>
         </div>
-        </div>
+
+
         <div class="mouse">
             <a href="#" class="mouse-icon">
                 <div class="mouse-wheel"><span class="ion-ios-arrow-round-down"></span></div>
@@ -86,14 +91,15 @@
                 <div class="col-md-6 col-lg-6 pl-md-5 py-5">
                     <div class="row justify-content-start pb-3">
                         <div class="col-md-12 heading-section ftco-animate">
-                            <h1 class="big">About</h1>
+                            <!-- <h1 class="big">About</h1> -->
                             <h2 class="mb-4">About Me</h2>
                             <p>I'm Undergraduate IT Student at kj somaiya college of engineering practical and versatile IT student with significant experience collaborating on the troubleshooting process, working on different project Seeking for a position
                                 that will utilize my skills and experience.</p>
                             <ul class="about-info mt-4 px-md-0 px-2">
                                 <li class="d-flex"><span>Name:</span> <span>Hritik Jaiswal</span></li>
                                 <li class="d-flex"><span>Date of birth:</span> <span>May 31, 2000</span></li>
-                                <li class="d-flex"><span>Address:</span> <span>1/314 , Swarajya CHSL , Dadar (west) , Mumbai </span></li>
+                                <li class="d-flex"><span>Address:</span> <span>1/314 , Swarajya CHSL , Dadar (west) ,
+                                        Mumbai </span></li>
                                 <li class="d-flex"><span>Zip code:</span> <span>400013</span></li>
                                 <li class="d-flex"><span>Email:</span> <span>hritik.jaiswal@somaiya.edu</span></li>
                                 <li class="d-flex"><span>Phone: </span> <span>7303412313</span></li>
@@ -175,12 +181,12 @@
                                     <h2 class="h5 font-weight-bold text-center mb-4">C++</h2>
 
                                     <!-- Progress bar 1 -->
-                                    <div class="progress mx-auto" data-value='90'>
+                                    <div class="progress mx-auto" data-value="90">
                                         <span class="progress-left">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <span class="progress-right">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                             <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
@@ -206,12 +212,12 @@
                                     <h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
 
                                     <!-- Progress bar 1 -->
-                                    <div class="progress mx-auto" data-value='80'>
+                                    <div class="progress mx-auto" data-value="80">
                                         <span class="progress-left">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <span class="progress-right">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                             <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
@@ -237,12 +243,12 @@
                                     <h2 class="h5 font-weight-bold text-center mb-4">Javascript</h2>
 
                                     <!-- Progress bar 1 -->
-                                    <div class="progress mx-auto" data-value='75'>
+                                    <div class="progress mx-auto" data-value="75">
                                         <span class="progress-left">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <span class="progress-right">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                             <div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
@@ -444,7 +450,8 @@
                                 <span class="date">October - 2019</span>
                                 <h2>KJSCE Hack</h2>
                                 <span class="position">Certificate of appreciation.</span>
-                                <p>Hackathon is a part of KJSCE’s annual tech fest, Abhiyantriki Organized by KJSCE codecell</p>
+                                <p>Hackathon is a part of KJSCE’s annual tech fest, Abhiyantriki Organized by KJSCE codecell
+                                </p>
                             </div>
                         </div>
 
@@ -484,12 +491,12 @@
                                     <h2 class="h5 font-weight-bold text-center mb-4">English</h2>
 
                                     <!-- Progress bar 1 -->
-                                    <div class="progress mx-auto" data-value='90'>
+                                    <div class="progress mx-auto" data-value="90">
                                         <span class="progress-left">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <span class="progress-right">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                             <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
@@ -515,12 +522,12 @@
                                     <h2 class="h5 font-weight-bold text-center mb-4">Hindi</h2>
 
                                     <!-- Progress bar 1 -->
-                                    <div class="progress mx-auto" data-value='80'>
+                                    <div class="progress mx-auto" data-value="80">
                                         <span class="progress-left">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <span class="progress-right">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                             <div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
@@ -546,12 +553,12 @@
                                     <h2 class="h5 font-weight-bold text-center mb-4">Marathi</h2>
 
                                     <!-- Progress bar 1 -->
-                                    <div class="progress mx-auto" data-value='75'>
+                                    <div class="progress mx-auto" data-value="75">
                                         <span class="progress-left">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <span class="progress-right">
-					  <span class="progress-bar border-primary"></span>
+                                            <span class="progress-bar border-primary"></span>
                                         </span>
                                         <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
                                             <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
@@ -577,6 +584,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
 
@@ -675,14 +683,18 @@
                 <div class="col-md">
                     <div class="ftco-footer-widget mb-4">
                         <h2 class="ftco-heading-2">About</h2>
-                        <p>I'm Undergraduate IT student at kj somaiya college of engineering practical & Technical team member at <a style="color: #3e64ff;" href="https://kjscerobocon.tech/">Team Kjsce Robocon</a></p>
+                        <p>I'm Undergraduate IT student at kj somaiya college of engineering practical & Technical team member at <a style="color: #3e64ff;" href="https://kjscerobocon.tech/">Team Kjsce
+                                Robocon</a></p>
 
                         <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                            <li class="ftco-animate"><a href="https://github.com/hritik5102" target="_blank"><span class="icon-github"></span></a></li>
-                            <li class="ftco-animate"><a href="https://twitter.com/HritikJ71241501" target="_blank"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="https://github.com/hritik5102" target="_blank"><span
+                                        class="icon-github"></span></a></li>
+                            <li class="ftco-animate"><a href="https://twitter.com/HritikJ71241501" target="_blank"><span
+                                        class="icon-twitter"></span></a></li>
                             <li class="ftco-animate"><a href="https://www.linkedin.com/in/hritik-jaiswal-22a136166/" target="_blank"><span class="icon-linkedin"></span></a></li>
                             <li class="ftco-animate"><a href="https://stackoverflow.com/users/11890231/hritik-jaiswal" target="_blank"><span class="icon-stack-overflow"></span></a></li>
-                            <li class="ftco-animate"><a href="https://medium.com/@hritik.jaiswal" target="_blank"><span class="icon-medium"></span></a></li>
+                            <li class="ftco-animate"><a href="https://medium.com/@hritik.jaiswal" target="_blank"><span
+                                        class="icon-medium"></span></a></li>
                             <!-- <li class="ftco-animate"><a href="https://gitlab.com/hritik5102" target="_blank" ><span class="icon-gitlab"></span></a></li> -->
 
 
@@ -696,8 +708,10 @@
                             <li><a href="#home"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
                             <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
                             <!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li> -->
-                            <li><a href="#resume-section"><span class="icon-long-arrow-right mr-2"></span>Resume</a></li>
-                            <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                            <li><a href="#resume-section"><span class="icon-long-arrow-right mr-2"></span>Resume</a>
+                            </li>
+                            <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -707,9 +721,13 @@
                         <h2 class="ftco-heading-2">Have a Questions?</h2>
                         <div class="block-23 mb-3">
                             <ul>
-                                <li><span class="icon icon-map-marker"></span><span class="text">1/314 , Swarajya CHSL , Dadar(West) , Mumbai-400013</span></li>
-                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">7303412313</span></a></li>
-                                <li><a class="auto-generated-link" data-auto-recognition="true" data-type="mail" href="mailto:hritik.jaiswal@somaiya.edu" data-content="hritik.jaiswal@somaiya.edu"><span class="icon icon-envelope"></span><span class="text">hritik.jaiswal@somaiya.edu</span></a></li>
+                                <li><span class="icon icon-map-marker"></span><span class="text">1/314 , Swarajya CHSL ,
+                                        Dadar(West) , Mumbai-400013</span></li>
+                                <li><a href="#"><span class="icon icon-phone"></span><span
+                                            class="text">7303412313</span></a></li>
+                                <li><a class="auto-generated-link" data-auto-recognition="true" data-type="mail" href="mailto:hritik.jaiswal@somaiya.edu" data-content="hritik.jaiswal@somaiya.edu"><span
+                                            class="icon icon-envelope"></span><span
+                                            class="text">hritik.jaiswal@somaiya.edu</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -730,7 +748,10 @@
 
 
     <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" /></svg></div>
 
 
     <script src="js/jquery.min.js"></script>
