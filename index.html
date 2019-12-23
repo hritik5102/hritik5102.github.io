@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="
+">
 
 <head>
     <title>Hritik Jaiswal</title>
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="scss/main.scss">
 </head>
 
@@ -743,6 +745,8 @@
             </div>
 
         </div>
+        <a href="javascript:;" class="scrollToTop" style="display: block;border-bottom:none;"><i
+                class="icon ion-ios-arrow-up"></i></a>
     </footer>
 
 
@@ -768,6 +772,14 @@
     <script src="js/scrollax.min.js"></script>
 
     <script src="js/main.js"></script>
+    <script>
+        $('.scrollToTop').click(function() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 900);
+            return false;
+        });
+    </script>
 
 </body>
 

@@ -4,7 +4,7 @@
     padding-left: 20px;
 }
 
-.toggle-container input[type=checkbox] {
+.toggle-container input[type="checkbox"] {
     height: 0;
     width: 0;
     visibility: hidden;
@@ -22,7 +22,7 @@
 }
 
 .toggle-container label:after {
-    content: '';
+    content: "";
     position: absolute;
     top: 5px;
     left: 5px;
@@ -46,7 +46,18 @@
     width: 30px;
 }
 
-html[data-theme='dark'] {
-    background-color: #171c28;
-    color: white;
+.scrollToTop {
+    display: none;
+    font-weight: bold;
+    height: auto;
+    padding: 0;
+    position: fixed;
+    right: 45px;
+    text-align: center;
+    text-decoration: none;
+    top: 91%;
+    width: 25px;
+    background-color: rgb(36, 36, 36);
+    z-index: 999;
+    border-radius: 2px;
 }
